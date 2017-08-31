@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Dog Table Display</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="assets/styles/mystyles.css"/>
+  </head>
+  <body>
+    <div id="container">
+
+      <table id="dogTable" class="table table-striped" cellspacing="0" width="100%">
+        <tr>
+          <thead>
+            <th>
+              ADMIN
+            </th>
+            <th>
+              UPDATE
+            </th>
+            <th>
+              Dog Breed
+            </th>
+            <th>
+              Dog Name
+            </th>
+            <th>
+              Dog Age
+            </th>
+            <th>
+              Dog Color
+            </th>
+            <th>
+              Dog Personality
+            </th>
+          </thead>
+        </tr>
+          <tbody id="myTBODY">
+
+          </tbody>
+
+      </table>
+      <form id="dogDataInput">
+        <!-- <div class="form-group">
+          <label for="exampleInputEmail1">Dog ID #:</label>
+          <input class="form-control" id="dogIDInput" name="id" placeholder="Enter Dog ID #" >
+        </div> -->
+        <div class="form-group">
+          <label for="exampleInputEmail1">Dog Breed:</label>
+          <input class="form-control" id="dogBreedInput" name="dogBreed" placeholder="Enter Dog Breed">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Dog Name:</label>
+          <input class="form-control" id="dogNameInput" name="dogName" placeholder="Enter Dog Name">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Dog Age:</label>
+          <input class="form-control" id="dogAgeInput" name="dogAge" placeholder="Enter Dog Age">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Dog Color:</label>
+          <input class="form-control" id="dogColorInput" name="dogColor" placeholder="Enter Dog Color">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Dog Personality Input:</label>
+          <input class="form-control" id="dogPersonalityInput" name="dogPersonality" placeholder="Enter Dog Personality">
+        </div>
+        <div class="form-group">
+          <input type="checkbox" name="add_dog" id="chk_add_dog"><label for="chk_add_dog">Add a new dog to the API</label>
+          <input type="checkbox" name="update_dog" id="chk_update_dog"><label for="chk_update_dog">Update a dog to the API</label>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-success" id="submitBtn">SUBMIT</button>
+
+        </div>
+      </form>
+      <button type="submit" class="btn btn-warning" id="unlockBtn">UNLOCK TABLE</button>
+      <p>
+        <h3>Note: Click UNLOCK TABLE and mark ADD checkbox before adding a new dog. Click UPDATE checkbox above before submitting for update as well.</h3>
+      </p>
+    </div>
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="http://localhost:35729/livereload.js"></script>
+      <script type="text/javascript" src="assets/js/my_js.js"></script>
+  </body>
+</html>

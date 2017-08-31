@@ -1,0 +1,22 @@
+
+table {
+  font-size: 16px;
+  font-family: arial;
+
+}
+
+th {
+  text-transform: uppercase;
+}
+
+#container {
+    border-radius: 5px;
+    width: 60%;
+    margin: 0px auto;
+    float: none;
+
+}
+
+h3 {
+    text-decoration: underline;
+}
